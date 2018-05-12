@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: rI0xAEkNZm2ilYiHzV70Hhi0TuBJ5gCzwHeofDGVSUcwEk0MSA5oc/rI6iaBN3NBcFOCILs2ItySrFFutxwURp9avhNvax1iHwKV+pCQX/E8HR0s64R7pScIg+kFDsK+76FPN4GeoQEkzskVHbTub3eb+q2GIPU75F9/0sCBfmM6CbTrlpNhswGz9nlDx1tawDsbOn5R56M6BmrOHfgna7fuu8ngrQEB8dA0EjfPGRdniBsl9jSAV0KNQRKMQ71yP7J4Yl4Uo1aBmKAi0AC3OTMM5JLylBoJSO/1C2TwW+/mH1nzsOhhvgWGLoPYdEJqcnIq6PdWKDUqeJW/Hlxe7G01z9f9hVQ/jeYNIg+2iHkrHzQheo4ZIyaRAiAoa4iiBtFMM3sF119pbVCMB82ScufwmR6wO7L52vPaXxP6CPaxezahlX+HuRfkdLqoxAZ4O1XBxb3WonjgZ2RSQ+6+Jgr4qCM9I4Z06VHu+GKA/An3gPYEwIC1ropqH2SLlwihGOyw764578fx5fTk23z+uGi7hSHRgtJzmvS8UFUBFyJCgfNx0Ilp6BrgNjQ6HCkFC1mK1nUTOrPtfKEErRr/gZe0xxOPzUBm+ayciKgw3Htb2l87rs6x8WXKJhAUk0UfSjruZq4WmNwQ+jXAkhOaNufUGATMm0bchOXJjXaV4Kw=
+  app: enigmatic-ravine-86207
+  on:
+    repo: lightsage88/nTAPI
